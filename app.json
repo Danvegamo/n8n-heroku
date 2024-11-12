@@ -7,22 +7,22 @@
       "automation"
     ],
     "website": "https://n8n.io",
-    "repository": "https://github.com/n8n-io/n8n-heroku",
-    "logo": "https://raw.githubusercontent.com/n8n-io/n8n-heroku/main/n8n_logo.png",
+    "repository": "https://github.com/Danvegamo/n8n-heroku",
+    "logo": "https://raw.githubusercontent.com/Danvegamo/n8n-heroku/main/n8n_logo.png",
     "success_url": "/",
     "stack": "container",
     "env": {
       "GENERIC_TIMEZONE": {
         "description": "Time Zone to use with Heroku. You can find the name of your timezone for example here: https://momentjs.com/timezone/.",
-        "value": "Europe/Berlin"
+        "value": "America/New_York"
       },
       "N8N_ENCRYPTION_KEY": {
         "description": "Set the n8n encryption key to a static value to avoid Heroku overriding it (causing authentication to fail).",
-        "value": "change-me-to-something-else"
+        "value": "@26Y*a##QA4L*$97648S"
       },
       "WEBHOOK_URL": {
         "description": "Replace <appname> with your Heroku application name. This will ensure the correct webhook URLs are being shown in n8n.",
-        "value": "https://<appname>.herokuapp.com"
+        "value": "https://dvritas-n8n.herokuapp.com"
       },
       "DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED": {
         "description": "SSL is required to connect to Postgres on Heroku",
